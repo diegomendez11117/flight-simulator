@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Flight Simulator</title>
+	<link rel="stylesheet" type="text/css" href="./src/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+	<script src="./src/script.js">
+	</script>
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css" id="theme-styles">
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.js">
+	</script>
+	</script>
+</head>
+
+<body class="body-background">
+	<section class="login">
+		<section class="login__container shadow-5">
+			<h1>Flight Simulator</h1>
+			<p id="statusReport">The shuttle is on the ground</p>
+			<button class="button" id = "liftoffButton" onclick="hustonChange()">Take off</button>
+        <button class="button alert-button" id = "abortMission" onclick="abortingMission()">Abort mission</button>       
+  </section>  
+</body>
+</html>

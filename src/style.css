@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .shadow-5 {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+      0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+      0 16px 16px rgba(0, 0, 0, 0.12);
+  }
+  
+  
+  
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    border-radius: 0px 0px 40px 40px;
+  }
+  
+  .main__title {
+    color: white;
+    font-size: 25px;
+  }
+  
+  .body-background {
+    background: url('../images/background.jpg');
+    background-size: cover;
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+  
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+  
+    /* Background image is fixed in the viewport so that it doesn't move when 
+        the content's height is greater than the image's height */
+    background-attachment: fixed;
+  
+    /* This is what makes the background image rescale based
+        on the container's size */
+    background-size: cover;
+  
+    /* Set a background color that will be displayed
+        while the background image is loading */
+    background-color: #464646;
+  }
+  
+  .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 30px;
+    min-height: calc(100vh - 200px);
+  }
+  
+  .login__container {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    color: white;
+    padding: 30px 48px 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  ::placeholder {
+    color: white;
+  }
+  
+  .button {
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 0px 10px #8d8d8d;
+    border: 0px;
+    border-radius: 40px;
+    height: 50px;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Muli', 'sans-serif';
+    outline: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    letter-spacing: 0px;
+  }
+  
+  .button:hover {
+    transition: all 0.2s ease-in-out;
+    box-shadow: 1px 1px 12px #666666;
+  }
+  
+  .alert-button:hover {
+    background-color: rgba(255, 0, 0, 0.6)
+  }
+  
